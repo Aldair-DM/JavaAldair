@@ -34,11 +34,19 @@ Para poder escribir en Java debemos de llamar una función que nos active la fun
 escritura la cual nos permitirá escribir como imprimir funciones de tipo texto o string
 
 *** System.out.println(); ***
+
 La cual a manera de atajo se puede escribir como Sout dentro de la ID y con la tecla tabulador
 podemos ahorrarnos escribir del todo la expresión o en otros ID de programación es mas simple
 puesto que no es necesaria la tecla tabulador para conseguir el comando deseado.
 
 Dentro de los parentesis del println vamos s escribir "entrecomilladas las cosas que queramos
 imprimir en el compilador"
+
+*** System.out.println("Hola mundo desde Java"); ***
+
+Tarea 1: Saludar desde java
+
+*** System.out.println("Hola, que tal"); *** (Probemos)
+Tarea finalizada con éxito.
 
 
