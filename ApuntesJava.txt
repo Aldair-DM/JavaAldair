@@ -117,7 +117,7 @@ Usando el comando control+click sobre una variable nos llevará a la línea dond
 esta fue creada.
 
 Si alguna ventana fue cerrada podemos darle en el apartado window y sobre eso buscar la consola
-pero en Inteligi no hace falta ya que generalmente está abajo.
+pero en Intelligi no hace falta ya que generalmente está abajo.
 
 
 
