@@ -50,3 +50,67 @@ Tarea 1: Saludar desde java
 Tarea finalizada con éxito.
 
 
+SECCIÓN 2 .8 VARIABLES EN JAVA
+
+Una variable puede almacenar distintos tipos de datos asi como variar en sus valores
+es decir que puede tener un valor diferente según haga falta
+
+TIPOS DE DATOS EN JAVA:
+
+TIPOS PRIMITIVOS:
+-Tipos enteros o numerales
+-Tipos string o cadena (texto)
+-Tipos flotantes (decimales osea punto decimal)
+
+
+TIPOS REFERENCIADOS:
+-Clases
+-Interfaces
+-Arrays
+
+VARIABLES PRIMITIVAS, TERMINOS Y ESTRUCTURAS:
+
+Para definir un tipo de variable entera o de numeros se hace con el termino "int"
+y al frente el nombre de la misma que debe encontrarse en formato camel o de camello
+el cual se denota poniento la primer letra de la primer palabra en minuscula y el
+inicio de la siguiente palabra en mayusculas, posteriormente lo que haremos es añadir
+un signo de igual (=) junto con el valor que le vamos a asignar a dicha variable seguido
+del punto y coma ;
+
+EJEMPLO DE INT+NOMBRE:
+
+int miVariableEntera = 10;
+
+IMPRESIÓN DE VARIABLES:
+
+Para imprimir una variable que ya hemos definido lo que debemos de hacer es de hacer
+un SOUT y dentro de los parentesis del println() vamos a poner el nombre de la variable
+que queremos que sea impresa.
+
+*** sout.println(miVariableEntera); ***
+Ejecutamos y ya ha funcionado la ejecución.
+
+Como ya se ha definido esta variable podremos usarla a lo largo del programa
+asi como cambiar el valor de dicha variable, osea que si después volvemos a
+escribir la variable asignandole otro valor entonces esa variable previamente
+definida fue redefinida y no hace falta especificar el tipo de variable que es "int
+"
+Documentemos también el programa.
+
+Sin embargo una variable que ya fue usada dentro de un método no será posible usarla
+en este caso usamos la variable "miVariableEntera" fue usada en main no puede ser usada
+en otra.
+
+TIPO DE DATO STRING:
+
+String no es un dato primitivo sino una clase de java la cual nos permite crear
+una variable de tipo texto, igualmente le asignamos un valor con un signo igual
+y luego entre comillas vamos a poner aquello que queremos que sea escrito e impreso.
+
+EJEMPLO STRING:
+
+String miVariableCadena = "Saludos";
+
+Tarea: ASIGNAR A ESA VARIABLE EL VALOR DE ADIOS E IMPRIMIR.
+
+
