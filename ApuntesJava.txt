@@ -1,0 +1,44 @@
+Escritura de Camel o Camello se refiere a que debemos de escribir siempre los nombres de
+nuestras clases, donde siempre irán pegadas y la primer letra de cada palabra deberá de ir
+en Mayúsculas.
+
+Clase 1 Java para anotar la documentación del código lo que se debe de hacer es abrir con
+2 parentesís los cuales nos darán la opción de hacer comentarios respecto a lo que estemos
+haciendo dentro del código o también podemos usar el diagonal mas 2 asteriscos los cuales
+sirven para algo similar pero generalmente para partes de temas dentro del ID separando asi
+los temas o secciones del código 
+
+*** //bla ó /**bla ***
+
+Java si dferencía entre Mayúsculas y minúsculas.
+
+1.0 CLASE HOLA MUNDO
+
+Siempre que iniciamos con java lo que se va a generar dentro de la clase es el public class
+adjunto al nombre de nuestra clase y sus llaves de apertura y cierre.
+
+Para esta clase lo que haremos es utilizar la primer apertura que vayamos a ver en java
+para poder trabajar con nuestro proyecto el cual es;
+
+*** public static void main (String args[]){ ***
+
+Donde la función main nos permite trabajar con nuestra parte del proyecto 
+
+TODO DEBE ESCRIBIRSE RESPETANDO MAYUSCULAS Y MINUSCULAS.
+
+Después veremos el significado de todas las palabras que componen tal enunciado
+
+*** ESCRITURA ***
+
+Para poder escribir en Java debemos de llamar una función que nos active la función de
+escritura la cual nos permitirá escribir como imprimir funciones de tipo texto o string
+
+*** System.out.println(); ***
+La cual a manera de atajo se puede escribir como Sout dentro de la ID y con la tecla tabulador
+podemos ahorrarnos escribir del todo la expresión o en otros ID de programación es mas simple
+puesto que no es necesaria la tecla tabulador para conseguir el comando deseado.
+
+Dentro de los parentesis del println vamos s escribir "entrecomilladas las cosas que queramos
+imprimir en el compilador"
+
+
