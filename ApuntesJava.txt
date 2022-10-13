@@ -144,5 +144,30 @@ var $miVariable = 3;
 
 También es posible usar letras con acento pero no es lo recomendable en buenas prácitcas
 
+CLASE CONCATENACIÓN DE CADENAS EN JAVA:
+
+Una vez hayamos definido las variables que queramos concatenar usaremos el conector +
+entre ambas variables dentro del parentesis a la hora de imprimir los datos que
+queramos mostrar
+
+También podemos combinar las variables dentro de una nueva definiendo ambas como
+el valor de la nueva variable e imprimirlo también.
+
+*** var3 = var1 + var2; ***
+*** sout var3; ***
+*** soutv ***
+
+Espacios:
+Para crear un espacio entre 2 variables a la hora de imprimir o en sintaxis usaremos
+el termino " " entre ambas mediante el signo de +.
+
+*** var3= var1 + " " + var2; ***
+
+También podemos usar un espacio dentro de las mismas cadenas de texto, pero usaremos
+el más conveniente.
+
+Continuar en clase 12 ejercicio de concatenación en Java min 3:14.
+
+
 
 
