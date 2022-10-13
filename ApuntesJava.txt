@@ -119,6 +119,13 @@ esta fue creada.
 Si alguna ventana fue cerrada podemos darle en el apartado window y sobre eso buscar la consola
 pero en Intelligi no hace falta ya que generalmente está abajo.
 
+CLASE VAR
 
+VAR= Inferencia de tipo de dato en java osea que según el valor que le asignemos,
+sea string o int o float va a ser mas sencillo de usar las variables puesto que no
+tendríamos que definirlas según su tipo
 
+ATAJO NUEVO: Cuando queramos imprimir el valor de la variable junto con el nombre de
+la misma lo que haremos será usar el comando soutv+tabulador o en intelligi vamos
+a seleccionar la opción únicamente escribiendo ese atajo y se desplegará el menu de opciones
 
