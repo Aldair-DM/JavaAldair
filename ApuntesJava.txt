@@ -129,3 +129,20 @@ ATAJO NUEVO: Cuando queramos imprimir el valor de la variable junto con el nombr
 la misma lo que haremos será usar el comando soutv+tabulador o en intelligi vamos
 a seleccionar la opción únicamente escribiendo ese atajo y se desplegará el menu de opciones
 
+CLASE REGLAS PARA DEFINIR UNA VARIABLE:
+
+Una regla que necesitamos tener en cuenta es que no podemos iniciar el nombre de una
+variable con un valor númerico.
+// 1miVariableVar //
+// # //
+
+Tipos correctos que pueden definirse:
+
+var miVariable = 1;
+var _miVariable = 2;
+var $miVariable = 3;
+
+También es posible usar letras con acento pero no es lo recomendable en buenas prácitcas
+
+
+
