@@ -1,30 +1,30 @@
 Escritura de Camel o Camello se refiere a que debemos de escribir siempre los nombres de
-nuestras clases, donde siempre irán pegadas y la primer letra de cada palabra deberá de ir
+nuestras clases, donde siempre irán pegadas y la primera letra de cada palabra deberá de ir
 en Mayúsculas.
 
 Clase 1 Java para anotar la documentación del código lo que se debe de hacer es abrir con
-2 parentesís los cuales nos darán la opción de hacer comentarios respecto a lo que estemos
-haciendo dentro del código o también podemos usar el diagonal mas 2 asteriscos los cuales
-sirven para algo similar pero generalmente para partes de temas dentro del ID separando asi
+2 paréntesis los cuales nos darán la opción de hacer comentarios respecto a lo que estemos
+haciendo dentro del código o también podemos usar el diagonal más 2 asteriscos los cuales
+sirven para algo similar, pero generalmente para partes de temas dentro del ID separando asi
 los temas o secciones del código 
 
 *** //bla ó /**bla ***
 
-Java si dferencía entre Mayúsculas y minúsculas.
+Java si diferencia entre Mayúsculas y minúsculas.
 
 1.0 CLASE HOLA MUNDO
 
 Siempre que iniciamos con java lo que se va a generar dentro de la clase es el public class
 adjunto al nombre de nuestra clase y sus llaves de apertura y cierre.
 
-Para esta clase lo que haremos es utilizar la primer apertura que vayamos a ver en java
+Para esta clase lo que haremos es utilizar la primera apertura que vayamos a ver en java
 para poder trabajar con nuestro proyecto el cual es;
 
 *** public static void main (String args[]){ ***
 
 Donde la función main nos permite trabajar con nuestra parte del proyecto 
 
-TODO DEBE ESCRIBIRSE RESPETANDO MAYUSCULAS Y MINUSCULAS.
+TODO DEBE ESCRIBIRSE RESPETANDO MAYÚSCULAS Y MINÚSCULAS.
 
 Después veremos el significado de todas las palabras que componen tal enunciado
 
@@ -35,11 +35,11 @@ escritura la cual nos permitirá escribir como imprimir funciones de tipo texto 
 
 *** System.out.println(); ***
 
-La cual a manera de atajo se puede escribir como Sout dentro de la ID y con la tecla tabulador
-podemos ahorrarnos escribir del todo la expresión o en otros ID de programación es mas simple
-puesto que no es necesaria la tecla tabulador para conseguir el comando deseado.
+La cual a manera de atajo se puede escribir como "SOUT" dentro del entorno y con la tecla tabulador
+podemos ahorrarnos escribir del todo la expresión o en otros ID de programación es más fácil,
+ya que no es necesaria la tecla tab para conseguir el comando deseado.
 
-Dentro de los parentesis del println vamos s escribir "entrecomilladas las cosas que queramos
+Dentro de los paréntesis del println vamos a escribir "entrecomilladas las cosas que queramos
 imprimir en el compilador"
 
 *** System.out.println("Hola mundo desde Java"); ***
@@ -60,7 +60,7 @@ TIPOS DE DATOS EN JAVA:
 TIPOS PRIMITIVOS:
 -Tipos enteros o numerales
 -Tipos string o cadena (texto)
--Tipos flotantes (decimales osea punto decimal)
+-Tipos flotantes (decimales o sea punto decimal)
 
 
 TIPOS REFERENCIADOS:
@@ -68,14 +68,14 @@ TIPOS REFERENCIADOS:
 -Interfaces
 -Arrays
 
-VARIABLES PRIMITIVAS, TERMINOS Y ESTRUCTURAS:
+VARIABLES PRIMITIVAS, TÉRMINOS Y ESTRUCTURAS:
 
-Para definir un tipo de variable entera o de numeros se hace con el termino "int"
+Para definir un tipo de variable entera o de números se hace con el término "int"
 y al frente el nombre de la misma que debe encontrarse en formato camel o de camello
-el cual se denota poniento la primer letra de la primer palabra en minuscula y el
-inicio de la siguiente palabra en mayusculas, posteriormente lo que haremos es añadir
-un signo de igual (=) junto con el valor que le vamos a asignar a dicha variable seguido
-del punto y coma ;
+el cual se denota poniendo la primera letra de la primera palabra en minúscula y el
+inicio de la siguiente palabra en mayúsculas, posteriormente lo que haremos es añadir
+un signo de igual (=) junto con el valor que le vamos a asignar a dicha variable seguida
+del punto y coma ";"
 
 EJEMPLO DE INT+NOMBRE:
 
@@ -84,20 +84,20 @@ int miVariableEntera = 10;
 IMPRESIÓN DE VARIABLES:
 
 Para imprimir una variable que ya hemos definido lo que debemos de hacer es de hacer
-un SOUT y dentro de los parentesis del println() vamos a poner el nombre de la variable
+un SOUT y dentro de los paréntesis del println() vamos a poner el nombre de la variable
 que queremos que sea impresa.
 
 *** sout.println(miVariableEntera); ***
 Ejecutamos y ya ha funcionado la ejecución.
 
 Como ya se ha definido esta variable podremos usarla a lo largo del programa
-asi como cambiar el valor de dicha variable, osea que si después volvemos a
-escribir la variable asignandole otro valor entonces esa variable previamente
+asi como cambiar el valor de dicha variable, o sea que si después volvemos a
+escribir la variable asignando otro valor entonces esa variable previamente
 definida fue redefinida y no hace falta especificar el tipo de variable que es "int
 "
 Documentemos también el programa.
 
-Sin embargo una variable que ya fue usada dentro de un método no será posible usarla
+Sin embargo, una variable que ya fue usada dentro de un método no será posible usarla
 en este caso usamos la variable "miVariableEntera" fue usada en main no puede ser usada
 en otra.
 
@@ -113,26 +113,26 @@ String miVariableCadena = "Saludos";
 
 Tarea: ASIGNAR A ESA VARIABLE EL VALOR DE ADIOS E IMPRIMIR.
 
-Usando el comando control+click sobre una variable nos llevará a la línea donde
-esta fue creada.
+Usando el comando control+clic sobre una variable nos llevará a la línea donde
+está creada.
 
-Si alguna ventana fue cerrada podemos darle en el apartado window y sobre eso buscar la consola
-pero en Intelligi no hace falta ya que generalmente está abajo.
+Si alguna ventana fue cerrada podemos darle en el apartado window y sobre eso buscar la consola,
+pero en IntelliJ no hace falta, ya que generalmente está abajo.
 
 CLASE VAR
 
-VAR= Inferencia de tipo de dato en java osea que según el valor que le asignemos,
-sea string o int o float va a ser mas sencillo de usar las variables puesto que no
+VAR= Inferencia de tipo de dato en java o sea que según el valor que le asignemos,
+sea string o int o float va a ser más sencillo de usar las variables, puesto que no
 tendríamos que definirlas según su tipo
 
 ATAJO NUEVO: Cuando queramos imprimir el valor de la variable junto con el nombre de
-la misma lo que haremos será usar el comando soutv+tabulador o en intelligi vamos
+la misma lo que haremos será usar el comando soutv+tabulador o en IntelliJ vamos
 a seleccionar la opción únicamente escribiendo ese atajo y se desplegará el menu de opciones
 
 CLASE REGLAS PARA DEFINIR UNA VARIABLE:
 
 Una regla que necesitamos tener en cuenta es que no podemos iniciar el nombre de una
-variable con un valor númerico.
+variable con un valor numérico.
 // 1miVariableVar //
 // # //
 
@@ -142,12 +142,12 @@ var miVariable = 1;
 var _miVariable = 2;
 var $miVariable = 3;
 
-También es posible usar letras con acento pero no es lo recomendable en buenas prácitcas
+También es posible usar letras con acento, pero no es lo recomendable en buenas prácticas
 
 CLASE CONCATENACIÓN DE CADENAS EN JAVA:
 
 Una vez hayamos definido las variables que queramos concatenar usaremos el conector +
-entre ambas variables dentro del parentesis a la hora de imprimir los datos que
+entre ambas variables dentro del paréntesis a la hora de imprimir los datos que
 queramos mostrar
 
 También podemos combinar las variables dentro de una nueva definiendo ambas como
@@ -159,14 +159,68 @@ el valor de la nueva variable e imprimirlo también.
 
 Espacios:
 Para crear un espacio entre 2 variables a la hora de imprimir o en sintaxis usaremos
-el termino " " entre ambas mediante el signo de +.
+el término" "entre ambas mediante el signo de +.
 
 *** var3= var1 + " " + var2; ***
 
 También podemos usar un espacio dentro de las mismas cadenas de texto, pero usaremos
 el más conveniente.
 
-Continuar en clase 12 ejercicio de concatenación en Java min 3:14.
+Continuar en clase 12, "Ejercicio de concatenación en Java min 3:14".
+
+CONCATENACIÓN DE VARIABLES ENTERAS EN SUMA, RESTA, MUL O DIVISIÓN DE NÚMEROS
+
+En esta parte llo que vamos a hacer es diseñar 2 nuevas variables en las cuales
+vamos a darles un valor numérico y en el momento de imprimirlos los sumaremos,
+restaremos, multiplicaremos y dividiremos.
+
+Lo recomendable es siempre usar nombres de variables largas, ya que son buenas
+prácticas, pero igualmente podemos nombrar las variables con nombres cortos como
+una sola letra.
+
+***i=5;***
+
+NOTA:
+Para divisiones donde el numerador sea menor al dividiendo este va a dar 0 entonces
+es considerable usar siempre un numerador más grande.
+
+También podemos concatenar valores y luego de eso concatenar una cadena String
+o sea que podemos hacer operaciones y luego unirlas a una variable de tipo String
+
+***A+B+miVariableCadena***
+= 10Aldair.
+
+CONCATENACIÓN DE ENTEROS SIN OPERACIÓN
+
+En java las impresiones se leen de izquierda a derecha y existe una regla llamada
+contexto cadena donde si del lado izquierdo se lee primero una cadena entonces los
+términos del lado derecho se interpretarán de la misma forma dando como resultado
+no una suma de variables enteras sino una impresión del valor de las mismas.
+
+soutprintln(miVariableCadena + A + B)
+donde A es 5 y B es 6.
+
+No va a darnos:
+cadena 11
+sino
+cadena 56.
+
+De esta forma podemos ver por la posibilidad de poder meter antes una variable vacía
+de tipo string simplemente para imprimir números sin interacción operacional entre
+ellos.
+
+Ahora, si queremos imprimir primero la variable String y luego si operar con los
+enteros entonces vamos a añadir un paréntesis a la operación (todo dentro del
+paréntesis del println).
+
+*** soutln(cadena + (A+B)); ***
+En esta estructura lo que hacemos es imprimir primero la variable cadena y evitamos
+el contexto cadena y conseguimos la suma igualmente y esto con cualquier símbolo de
+operación, los paréntesis al igual que en matemáticas toman un valor primordial
+entonces primero se realiza la operación y luego se imprime en el orden en el que
+definimos la impresión.
+O sea que los paréntesis modifican la prioridad de la ecuación.
+
 
 
 
