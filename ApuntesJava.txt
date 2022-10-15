@@ -221,6 +221,41 @@ entonces primero se realiza la operación y luego se imprime en el orden en el q
 definimos la impresión.
 O sea que los paréntesis modifican la prioridad de la ecuación.
 
+CLASE CARACTERES ESPECIALES EN JAVA
+
+Para hacer un salto de línea en la consola lo que haremos es un paréntesis inverso+n
+de esta forma, vamos a generar un salto de línea dentro de una variable de tipo
+String la cual vamos a ejemplificar:
+
+*** Sout("Hola \n"); ***
+esto escribirá hola y posteriormente una línea entera de salto
+
+COMANDO TABULADOR.
+Este comando sirve para generar un espacio de medida determinada entre el último
+carácter escrito y el siguiente a imprimir
+"\t"
+COMANDO RETROCESO
+"\b" para este comando se usará cuando hayamos dejado un espacio en blanco
+dentro de una variable o impresión, dejando limpio el código de ese espacio.
+
+TODOS SON ACUMULABLES O SEA QUE SI PONES VARIOS DE CADA UNA SU FUNCIÓN SE REPLICARÁ
+EL NÚMERO DE VECES QUE LO HAYAS TECLEADO
+
+COMILLAS DENTRO DEL STRING
+
+Para usar comillas simples' 'o comillas dobles""dentro de java se usará el término
+
+\' Y \" Obviamente deben de pertenecer dentro de una cadena de texto
+
+*** "Como usar dobles comillas: \'" + miVariableCadena + "\"";
+Ahí estamos usando ambas aplicaciones.
+Como las comillas simples no rompen el sistema de cadenas podemos usarla directamente
+dentro de dos comillas:"'"
+
+De hecho IntelliJ si es capaz de leer el paréntesis inverso con comillas simples,
+pero recomienda ponerlo entre comillas dobles.
+
+***"'"***
 
 
 
