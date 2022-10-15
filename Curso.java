@@ -36,7 +36,8 @@ public class Curso {
         System.out.println("'"+miVariableCadena+"'");
         //FIN LECCIÓN
 //Nota: IntelliJ recomienda usar las comillas simples dentro de las comillas dobles
-        //en lugar de usar el paréntesis invertido y comillas simples.
+        //en lugar de usar el paréntesis invertido y comillas simples
+        //Cambio de nombre a Caracteres especiales en Java
 
     }
 }
