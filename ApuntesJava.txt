@@ -314,8 +314,8 @@ var miUsuario = miVariableScanner.nextLine();
 
 ***
 
-De igual forma podemos complementar el programa añadiendo mas variables
-que sean capaces de leerse para así obtener mas datos que necesitemos como lo
+De igual forma podemos complementar el programa añadiendo más variables
+que sean capaces de leerse para así obtener más datos que necesitemos como lo
 son la edad, altura, nombre etc.
 
 PUNTO IMPORTANTE
@@ -330,6 +330,10 @@ ES NECESARIO VOLVER A DEFINIR UNA SEGUNDA VARIABLE DE SCANNER
 //leído algún dato previo.
 
        -fin de la "claseScanner."
+       FIN DE LA SECCIÓN 2.
+
+
+
 
 
 
