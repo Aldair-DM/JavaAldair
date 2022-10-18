@@ -1,43 +1,61 @@
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Curso {
     public static void main(String args[]){
-        var miVariableCadena = "Karla";
-                var miVariableEntera = 20;
-                //Probaré a imprimir ambas situaciones apara mostrar dicha diferencia
-        System.out.println(miVariableCadena+miVariableEntera);
-        //Se imprime directamente después de las instrucciones de entrada
-        //Probemos con el sout de las variables con el salto de línea
-        System.out.println("\n"+miVariableCadena+miVariableEntera);
-        //Funciona de manera adecuada
-//Ahora usaré el comando tabulador el cual, genera un espacio.
-        System.out.println(miVariableCadena + "\t" + miVariableEntera);
-        //Funciona
-        //Usaré el comando retroceso "\b" el cual borra los espacios dejados en código
-        System.out.println(miVariableCadena + "espacio: \b" + miVariableEntera);
-// En este como notamos dejamos un espacio dentro del string donde después de los 2
-        //puntos debería de haber un espacio, pero ya no lo hay.
-//Probemos a acumular varios de los comandos
+        //CLASE SCANNER
+        //CAPTURAR INFORMACIÓN DINÁMICA
+        //Definiré una variable con cualquier valor y mando a imprimir
+        var usuario = "Carlos";
+        System.out.println(usuario);
+        System.out.println("usuario = " + usuario);
+        //Esto es información estática, pero si queremos que un usuario escriba
+        //y guarde su info usaremos la clase Scanner.
+        //Definiré, usaré e importaré la clase Scanner
+        Scanner miVariableScanner = new Scanner(System.in);
+        //Definí e importé la clase Scanner exitosamente.
 
-        System.out.println(miVariableCadena+ "\n"+"\n" + miVariableEntera);
-        System.out.println(miVariableCadena+ "\t"+"\t"+"\t"+"\t"+miVariableEntera);
-        System.out.println("Hola, me van a quitar muchas letras \b\b\b\b" + miVariableEntera);
-        //Efectivamente, todas son acumulativas y funcionan adecuadamente.
+        //Ahora haré uso de la instrucción ".nextLine()", después del valor de mi
+        //nueva variable para permitir que se lea más veces y que el programa
+        //no avance hasta escribir algo, pero antes pondré la instrucción necesaria.
 
-        // USO DE COMILLAS
-        //Para usar comillas y dobles comillas lo haremos con:
-        //    "\'" Ó "\""     \\
-        System.out.println("Nombre de alumna:  " + "\"" + miVariableCadena + "\"");
-        //Funciona perfecto, probemos con comillas simples y usando un poco de todos
-        //los comandos
-        System.out.println("Nombre de alumna: "+ "\b" + "\'"+ "\t"+ miVariableCadena + "\'");
-        //Al imprimir puede ser raro, pero todos los comandos funcionan.
-        //También podemos usar las comillas simples entre dobles comillas
-        System.out.println("'"+miVariableCadena+"'");
-        //FIN LECCIÓN
-//Nota: IntelliJ recomienda usar las comillas simples dentro de las comillas dobles
-        //en lugar de usar el paréntesis invertido y comillas simples
-        //Cambio de nombre a Caracteres especiales en Java
+        
+        //Scanner miVariableScanner = new Scanner(System.in); //Adjuntada arriba
+        System.out.println("Escribe tu nombre de usuario: ");
+        var miUsuario = miVariableScanner.nextLine();
+        //Ahora después de recibir la información voy a imprimir a la variable 
+        //con el valor que el usuario haya asignado.
+        //System.out.println("Usuario = " + miUsuario + " " + "Bienvenido");
+        //La variable debería correr desde aquí, pero la moví más abajo para
+        //que se impriman la variable "usuario" y edad una vez dada la información.
+        //Funcionó perfecto, estamos orgullosos de nosotros:D
+
+        //Por probar haré mi propia prueba. //(Moví la variable de impresión vista
+        //en clase a mi prueba persona (impresión de la variable miUsuario).
+
+        Scanner miVariableEdad = new Scanner(System.in); //Declaro la nueva variable
+        //que también va a escanear.
+        System.out.println("Edad: "); //Mando a pedir el dato mediante instrucción soutln
+        var miEdad = miVariableEdad.nextLine(); //Asigno a mi variable a
+        // leer un nombre
+        //(Moví la instrucción de impresión de la variable "usuario" aquí para que
+        //se impriman ambos datos una vez dados y no uno por uno
+        System.out.println("Usuario = " + miUsuario + " " + "Bienvenido");
+        System.out.println("Edad: " + miEdad + " " + "años.");
+        //Una vez obtuve los datos entonces la mando a imprimir con unas cosas extra
+        // para así complementar.
+        //Éxito.
+        //Cometí un error por adelantarme y es que la primera variable de Scanner
+        //es conveniente ponerle un nombre universal como Consola o Lector, ya que
+        //podemos reutilizarla únicamente asignando otro nombre después de ya haber
+        //leído algún dato previo por lo cual no es útil asignar una segunda variable
+        //de tipo Scanner cuando ya tenemos una.
+
+        //FIN CLASE SCANNER
+
+
+        
+
+
 
     }
 }

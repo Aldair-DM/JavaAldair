@@ -257,9 +257,79 @@ pero recomienda ponerlo entre comillas dobles.
 
 ***"'"***
 
-Cambio de nombre a caracteres especiales en java
+CLASE Scanner.
 
+En la clase Scanner lo que hacemos es que el usuario o usuarios puedan meter el
+valor que quieran dentro de diversas variables y a su vez que se guarde esta
+información.
+Se hace uso de la siguiente línea declarativa respetando mayúsculas y minúsculas
 
+Primero anotaremos "Scanner" + el nombre de la variable de la cual leeremos la
+información y un signo igual el cual le dará valor a todo aquello que estemos
+creando, dentro usaremos la palabra reservada "new" + Scanner + (System.in)
+
+Básicamente con eso estamos diciendo que queremos leer la información de
+la variable.
+
+***¨Scanner miVariableScanner = new Scanner(System.in) ***
+
+(Donde in significa input y System es una clase de Java que nos da acceso a "in")
+
+Scanner cumple su función fuera del main principal en otro paquete llamado util,
+pero para que funcione debemos importarla hacía allá posicionándonos sobre la
+clase Scanner y en add import java.util clase Scanner se importará de forma
+automática.
+La variable que definimos puede leerse varias veces aunque ya se haya escrito
+algo en ella.
+
+Para hacer esto, dentro de la variable usaremos una instrucción nueva.
+
+1) Primero declaremos nuestra variable Usuario haciendo uso de la variable que
+nos permite escanear
+
+*** var usuario = miVariableScanner ***
+
+2) A esta variable compuesta le pondremos una instrucción nueva que nos permitirá
+que se lea una línea completa y que no pase nada hasta que el usuario escriba
+y se hace con el siguiente comando:
+
+***.nextLine() *** //Después de haber puesto toda la estructura anterior.
+
+*** var usuario = miVariableScanner.nextLine(); ***
+
+Esto nos dará la posibilidad de leer una variable multiples veces de manera
+dinámica, pero para poder saber que queremos leer primero debemos de mandar a
+imprimir una instrucción de tipo int o String dependiendo que es lo que vayamos
+a necesitar.
+
+CÓDIGO COMPLETO CLASE SCANNER:
+
+soutln= System.out.println();
+
+***
+
+soutln("Escribe tu nombre de usuario");
+Scanner miVariableScanner = new Scanner(System.in);
+var miUsuario = miVariableScanner.nextLine();
+
+***
+
+De igual forma podemos complementar el programa añadiendo mas variables
+que sean capaces de leerse para así obtener mas datos que necesitemos como lo
+son la edad, altura, nombre etc.
+
+PUNTO IMPORTANTE
+LA VARIABLE QUE YA CONTENGA EL "NEXTLINE" FUNCIONA CON TODO LO QUE PIDAMOS Y NO
+ES NECESARIO VOLVER A DEFINIR UNA SEGUNDA VARIABLE DE SCANNER
+
+(Aclarar en la documentación del código)
+
+//Cometí un error por adelantarme y es que la primera variable de Scanner
+//es conveniente ponerle un nombre universal como Consola o Lector, ya que
+//podemos reutilizarla únicamente asignando otro nombre después de ya haber
+//leído algún dato previo.
+
+       -fin de la "claseScanner."
 
 
 
