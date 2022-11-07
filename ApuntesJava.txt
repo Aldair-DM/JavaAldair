@@ -332,6 +332,70 @@ ES NECESARIO VOLVER A DEFINIR UNA SEGUNDA VARIABLE DE SCANNER
        -fin de la "claseScanner."
        FIN DE LA SECCIÓN 2.
 
+CLASE DE REPASO INFERENCIA TIPOS DE VARIABLES EN JAVA, FORMAS DE DECLARAR, SCANNER ETC
+
+Inferencia en java
+
+Literales numéricas en java se les conoces como int declaración de camello
+int miVarInt
+Mientras que el String se refiere a tipo de texto
+String miVarString
+Var a su vez infiere que tipo de variable se trata, independientemente de
+si es una variable entera, cadena, flotante etc...
+var miVar
+Concatenamos usando sout metiendo signos de + para concatenar y luego utilizaremos
+la propiedad de la cadena al inicio de la impresión para que asi no se sumen los números,
+sino que se impriman uno detrás del otro
+
+Recordemos el uso de soutv para imprimir el último valor de la variable junto
+con su nombre
+
+Recordemos que podemos cambiar el valor que ya tiene nuestra variable solo
+con poner el nombre con un signo igual más el valor que le vayamos a asignar
+no hace falta tampoco volver a declarar que tipo de variable es
+
+Usando \n saltamos línea siempre y cuando lo metamos dentro de comillas
+
+\t sirve para hacer una tabulación o espacio al imprimir
+
+\b sirve para hacer un borrado de espacio perteneciente a una letra
+
+Ahora hablaremos de uno interesante el "\'" el cual pone comillas según donde lo
+asignemos e igualmente necesita de comillas a su alrededor para ellos (no siempre,
+pero por seguridad al programar habría que hacerlo o no
+
+Ahora para comillas dobles deberemos hacer exactamente lo mismo "\""
+Probaremos todos en código
+Funcionó
+
+SCANNER
+Visto lo anterior podemos darle el nombre de código duro o estático
+que pueda cambiar dependiendo el tiempo o persona, scanner se encarga de ello
+
+Para declarar debemos de meter primero el término Scanner + nombre de variable
+e igualarlo a:
+
+new Scanner(System.in);
+
+Con esto ya tenemos un scanner para escritura dinámica de variables
+y primero pondremos la instrucción necesaria para luego definir una variable
+normal, pero igualarla a variable.nextLine();
+Scanner consola = new Scanner(System.in);
+System.out.println("Escribe tu nombre:");
+        var usuario = consola.nextLine();
+        //Debemos escribir info y solo ahí se detendrá el programa
+        System.out.println("Bienvenido" + " " + usuario);
+
+
+
+
+
+
+
+        FIN SECCIÓN 1 Y 2.
+
+
+
 
 
 
