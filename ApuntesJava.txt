@@ -393,6 +393,8 @@ System.out.println("Escribe tu nombre:");
 
 
         FIN SECCIÓN 1 Y 2.
+        (TAREA PROPIA DE SCANNER 8/11/2002).
+
 
 
 
